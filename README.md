@@ -10,8 +10,18 @@ Food Palace is an online tool meant to assist consumers in finding different mea
 
 ## APIs Employed
 
-- **Kalvium API:** Offers access to a database containing details on food, such as ingredients, recipes, and nutritional information. https://kalvium.com/api is the [API Endpoint]
-- **TheMealDB API:** Provides a vast library of recipes from different international cuisines, together with information on ingredients, directions, and pictures for every meal. [API Endpoint]Using the Themealdb.com/api.php website
+**TheMealDB API:** Offers a vast collection of recipes from various cuisines worldwide, providing details about ingredients, instructions, and images for each recipe. [API Endpoint](https://www.themealdb.com/api.php)
+
+
+
+## Application
+
+To explore other meal options, click on the corresponding tabs ("Home" or "Popular Dishes") on the application. Your gastronomic experience will be enhanced by the application, which will present pertinent content based on your pick.
+
+## Development
+
+The project is being built with JavaScript, CSS, and HTML.
+
 
 
 
