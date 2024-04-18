@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Palace</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+  
+
+<div >
+    <nav>
+        <img id="logo" src="./assets/Foody hub.jpg" alt="Logo">
+        <div id="nav_content">
+            <p id="home">Home</p>
+            <p id="popular_dishes">Popular Dishes</p>
+        </div>
+    </nav>
+</div>
+
+   
+  <div class = "container">
+    <div class = "meal-wrapper">
+      <div class = "meal-search">
+        <h2 class = "title">Find Meals For Your Ingridients</h2>
+        <blockquote>"One cannot think well, love well, sleep well, if one has not dined well."<br>
+          <cite>- Virginia Woolf</cite>
+        </blockquote>
+
+        <select class="dropdown" id="categoryDropdown">
+            <option disabled selected>Choose your category</option>
+        </select>
+      </div>
+
+  </div>
+
+  <div class="break">
+    <br>
+</div>
+<div class="grey">
+    <h2>Special dish</h2>
+    <div id="random_dish">
+        <img id="dish_image"></img>
+        <p class="dish-title" id="dish_title"></p>
+    </div>
+</div>
+
+
+  <div class="break">
+    <br>
+</div>
+<div class="grey-wrapper">
+    <div id="category" class="grey">
+        <p id="category_title">Your category suggestions</p>
+        <br>
+        <p id="information"> <img id="information-icon" src="./assets/metrostation-information-icon-png-clipart-removebg-preview.png" alt="information-icon">Please select the category</p>
+        <div id="searched_categories"></div>
+    </div>
+</div>
+
+<div id="modal-container" class="modal-container"></div>
+
+  <script src="./index.js"></script>
+  <script>
+    document.getElementById("popular_dishes").addEventListener("click", function() {
+      // Navigate to the desired page
+      window.location.href = "dish.html";
+    });
+  </script>
+</body>
+</html>
