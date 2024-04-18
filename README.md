@@ -1,8 +1,18 @@
-This project, titled "Food Palace," is a simple web application designed to help users find meals based on their ingredients. It consists of a user interface built with HTML, CSS, and JavaScript.
+#Food Palace
 
-# API Used
+Food Palace is an online tool meant to assist consumers in finding different meals by sorting through components and well-liked recipes. It offers an easy-to-use interface for exploring various food selections.
 
-## TheMealDB API
-- **Description:** TheMealDB API offers a vast collection of recipes from various cuisines worldwide. It provides details about ingredients, instructions, and images for each recipe.
-- **Endpoint:** [API Endpoint](https://www.themealdb.com/api.php)
+
+## Features
+
+- **Search Ingredient:** To find meals based on various ingredient categories, click the "Home" tab.
+- **Famous Recipes:** Go to the "Popular Dishes" area to view a selection of food photos featuring well-known foods.
+
+## APIs Employed
+
+- **Kalvium API:** Offers access to a database containing details on food, such as ingredients, recipes, and nutritional information. https://kalvium.com/api is the [API Endpoint]
+- **TheMealDB API:** Provides a vast library of recipes from different international cuisines, together with information on ingredients, directions, and pictures for every meal. [API Endpoint]Using the Themealdb.com/api.php website
+
+
+
 
