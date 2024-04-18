@@ -1,0 +1,1 @@
+This project, titled "Food Palace," is a simple web application designed to help users find meals based on their ingredients. It consists of a user interface built with HTML, CSS, and JavaScript.
